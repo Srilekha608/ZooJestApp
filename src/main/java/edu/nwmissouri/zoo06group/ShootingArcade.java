@@ -47,6 +47,43 @@ public class ShootingArcade extends AdventureRides{
          System.out.println("Welcome to adventure rides");
     return "Your ticket is booked";
     }
+    public static void Casting()
+
+{
+int i=6;
+double d=(double) i;
+System.out.println("Casted to"+d);
+
+
+
+
+}
+
+
+
+public static void Exception()
+{
+int a=5;
+int b=0;
+try{
+int x=a/b;
+System.out.println("h:"+x);
+
+
+
+}catch(Exception E)
+{
+System.out.println("Generated Exception is"+E);
+
+
+}
+}
+public static void main(String[] args)
+{
+Exception();
+Casting();
+
+}
 
     
     

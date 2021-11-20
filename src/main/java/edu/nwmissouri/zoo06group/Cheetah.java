@@ -35,7 +35,45 @@ public class Cheetah extends Animal {
     public void move() {
         System.out.println("When I move, I walk, walk, walk.");;//To change body of generated methods, choose Tools | Templates.
     }
-    
+    public static void Casting()
+
+{
+int i=9;
+double d=(double) i;
+System.out.println("Casted to "+d);
+
+
+
+
+}
+
+
+
+public static void Exception()
+{
+String[] i={"apple","fruit","mango"};
+
+try{
+String s=i[10];
+System.out.println("String:"+s);
+
+
+
+}catch(Exception E)
+{
+System.out.println("Generated Exception is "+E);
+
+
+}
+}
+public static void main(String[] args)
+{
+Exception();
+Casting();
+
+}
+
+
     
 }
 
